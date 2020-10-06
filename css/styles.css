@@ -20,11 +20,8 @@ body {
 }
 
 /*rating section*/
-.rating-div {
-  text-align: center;
-}
-
 .rating1, .rating2, .rating3 {
+  text-align: center;
   background-color: #faf4ff;
   color: #721b65;
   border-radius: 10px;
@@ -32,22 +29,20 @@ body {
   width: 400px;
   height: 50px;
   margin: 10px;
+  position: absolute;
 }
 
 .rating1 {
-  position: absolute;
   left: 50px;
   top: 120px;
 }
 
 .rating2 {
-  position: absolute;
   left: 100px;
   top: 180px;
 }
 
 .rating3 {
-  position: absolute;
   left: 150px;
   top: 240px;
 }
@@ -65,22 +60,15 @@ body {
   width: 300px;
   margin: 10px;
   border-radius: 10px;
-}
-
-.testimonial-div1 {
-  padding: 15px 10px;
-
+  padding: 10px;
 }
 
 .testimonial-div2 {
-  padding: 10px;
   position: relative;
   top: 20px;
 }
 
 .testimonial-div3 {
-  padding: 10px;
-
   position: relative;
   top: 40px;
 }
@@ -90,18 +78,15 @@ body {
   float: left;
 }
 
-.customer-name {
+.customer-name, .customer-status {
   font-weight: bold;
   text-align: left;
-  padding: 0% 35% 0%;
+  padding: 0 35% 0;
   font-size: .75rem;
 }
 
 .customer-status {
   color: #d291bc;
-  text-align: left;
-  padding: 0% 35% 0%;
-  font-size: .75rem;
 }
 
 .testimonial-description {
@@ -120,17 +105,16 @@ body {
     text-align: center;
     margin: auto;
   }
+
   .rating1 {
     position: static;
-
   }
 
-  .rating2 ,.rating3 {
-    position: static;
-  }
-  .testimonial-div1,.testimonial-div2,.testimonial-div3 {
+  .rating2, .rating3 {
     position: static;
   }
 
-
+  .testimonial-div1, .testimonial-div2, .testimonial-div3 {
+    position: static;
+  }
 }
